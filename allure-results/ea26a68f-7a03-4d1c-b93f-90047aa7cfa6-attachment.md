@@ -1,0 +1,137 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - generic:
+        - link "conduit" [ref=e5] [cursor=pointer]:
+          - /url: "#/"
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link " Source code" [ref=e8] [cursor=pointer]:
+              - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+              - generic [ref=e9] [cursor=pointer]: 
+              - text: Source code
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link " Home" [ref=e12] [cursor=pointer]:
+              - /url: "#/"
+              - generic [ref=e13] [cursor=pointer]: 
+              - text: Home
+          - listitem [ref=e14]:
+            - link " Login" [ref=e15] [cursor=pointer]:
+              - /url: "#/login"
+              - generic [ref=e16] [cursor=pointer]: 
+              - text: Login
+          - listitem [ref=e17]:
+            - link "Sign up" [ref=e18] [cursor=pointer]:
+              - /url: "#/register"
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - heading "conduit" [level=1] [ref=e23]
+        - paragraph [ref=e24]: A place to share your knowledge.
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - button "Global Feed" [ref=e31]
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - link "mary" [ref=e34] [cursor=pointer]:
+                - /url: "#/profile/mary"
+                - img "mary" [ref=e35] [cursor=pointer]
+              - generic [ref=e36]:
+                - link "mary" [ref=e37] [cursor=pointer]:
+                  - /url: "#/profile/mary"
+                - generic [ref=e38]: September 23, 2025
+              - button " ( 0 )" [ref=e39] [cursor=pointer]:
+                - generic [ref=e40] [cursor=pointer]: 
+                - generic [ref=e41] [cursor=pointer]: ( 0 )
+            - link "immediate flawed Read more... shrill" [ref=e42] [cursor=pointer]:
+              - /url: "#/article/immediate"
+              - heading "immediate" [level=1] [ref=e43] [cursor=pointer]
+              - paragraph [ref=e44] [cursor=pointer]: flawed
+              - generic [ref=e45] [cursor=pointer]: Read more...
+              - list [ref=e46] [cursor=pointer]:
+                - listitem [ref=e47] [cursor=pointer]: shrill
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - link "mary" [ref=e50] [cursor=pointer]:
+                - /url: "#/profile/mary"
+                - img "mary" [ref=e51] [cursor=pointer]
+              - generic [ref=e52]:
+                - link "mary" [ref=e53] [cursor=pointer]:
+                  - /url: "#/profile/mary"
+                - generic [ref=e54]: September 23, 2025
+              - button " ( 0 )" [ref=e55] [cursor=pointer]:
+                - generic [ref=e56] [cursor=pointer]: 
+                - generic [ref=e57] [cursor=pointer]: ( 0 )
+            - link "lean total Read more... quick" [ref=e58] [cursor=pointer]:
+              - /url: "#/article/lean"
+              - heading "lean" [level=1] [ref=e59] [cursor=pointer]
+              - paragraph [ref=e60] [cursor=pointer]: total
+              - generic [ref=e61] [cursor=pointer]: Read more...
+              - list [ref=e62] [cursor=pointer]:
+                - listitem [ref=e63] [cursor=pointer]: quick
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - link "mary" [ref=e66] [cursor=pointer]:
+                - /url: "#/profile/mary"
+                - img "mary" [ref=e67] [cursor=pointer]
+              - generic [ref=e68]:
+                - link "mary" [ref=e69] [cursor=pointer]:
+                  - /url: "#/profile/mary"
+                - generic [ref=e70]: September 23, 2025
+              - button " ( 0 )" [ref=e71] [cursor=pointer]:
+                - generic [ref=e72] [cursor=pointer]: 
+                - generic [ref=e73] [cursor=pointer]: ( 0 )
+            - link "humiliating formal Read more... trained" [ref=e74] [cursor=pointer]:
+              - /url: "#/article/humiliating"
+              - heading "humiliating" [level=1] [ref=e75] [cursor=pointer]
+              - paragraph [ref=e76] [cursor=pointer]: formal
+              - generic [ref=e77] [cursor=pointer]: Read more...
+              - list [ref=e78] [cursor=pointer]:
+                - listitem [ref=e79] [cursor=pointer]: trained
+          - navigation "Pagination" [ref=e80]:
+            - listitem [ref=e81]:
+              - button "Previous page" [disabled]:
+                - generic: 
+            - listitem [ref=e82]:
+              - button "Page 1 is your current page" [ref=e83]: "1"
+            - listitem [ref=e84]:
+              - button "Page 2" [ref=e85] [cursor=pointer]: "2"
+            - listitem [ref=e86]:
+              - button "Page 3" [ref=e87] [cursor=pointer]: "3"
+            - listitem [ref=e88]:
+              - button "..." [ref=e89] [cursor=pointer]
+            - listitem [ref=e90]:
+              - button "Page 6351" [ref=e91] [cursor=pointer]: "6351"
+            - listitem [ref=e92]:
+              - button "Page 6352" [ref=e93] [cursor=pointer]: "6352"
+            - listitem [ref=e94]:
+              - button "Page 6353" [ref=e95] [cursor=pointer]: "6353"
+            - listitem [ref=e96]:
+              - button "Next page" [ref=e97] [cursor=pointer]:
+                - generic [ref=e98] [cursor=pointer]: 
+        - complementary [ref=e99]:
+          - generic [ref=e100]:
+            - heading "Popular Tags" [level=6] [ref=e101]
+            - paragraph [ref=e103]: Loading tags...
+  - contentinfo [ref=e104]:
+    - generic [ref=e105]:
+      - link "conduit" [ref=e106] [cursor=pointer]:
+        - /url: "#/"
+      - generic [ref=e107]:
+        - text: An interactive learning project from
+        - link "Thinkster" [ref=e108] [cursor=pointer]:
+          - /url: https://thinkster.io
+        - text: . Code & design licensed under MIT.
+      - list [ref=e109]:
+        - listitem [ref=e110]:
+          - link " Source code" [ref=e111] [cursor=pointer]:
+            - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+            - generic [ref=e112] [cursor=pointer]: 
+            - text: Source code
+```

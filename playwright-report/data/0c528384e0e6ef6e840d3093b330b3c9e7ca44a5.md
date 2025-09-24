@@ -1,0 +1,93 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - generic:
+        - link "conduit" [ref=e5] [cursor=pointer]:
+          - /url: "#/"
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link " Source code" [ref=e8] [cursor=pointer]:
+              - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+              - generic [ref=e9] [cursor=pointer]: 
+              - text: Source code
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link " Home" [ref=e12] [cursor=pointer]:
+              - /url: "#/"
+              - generic [ref=e13] [cursor=pointer]: 
+              - text: Home
+          - listitem [ref=e14]:
+            - link " New Article" [ref=e15] [cursor=pointer]:
+              - /url: "#/editor"
+              - generic [ref=e16] [cursor=pointer]: 
+              - text: New Article
+          - listitem [ref=e17]:
+            - generic [ref=e18] [cursor=pointer]:
+              - img "Marina" [ref=e19] [cursor=pointer]
+              - text: Marina
+            - text:   
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e23]:
+        - heading "Title text Marina me and you" [level=1] [ref=e24]
+        - generic [ref=e25]:
+          - link "Marina" [ref=e26] [cursor=pointer]:
+            - /url: "#/profile/Marina"
+            - img "Marina" [ref=e27] [cursor=pointer]
+          - generic [ref=e28]:
+            - link "Marina" [ref=e29] [cursor=pointer]:
+              - /url: "#/profile/Marina"
+            - generic [ref=e30]: September 24, 2025
+          - button " Delete Article" [active] [ref=e31] [cursor=pointer]:
+            - generic [ref=e32] [cursor=pointer]: 
+            - text: Delete Article
+          - button " Edit Article" [ref=e33] [cursor=pointer]:
+            - link " Edit Article" [ref=e34] [cursor=pointer]:
+              - /url: "#/editor/title-text-marina-me-and-you"
+              - generic [ref=e35] [cursor=pointer]: 
+              - text: Edit Article
+      - generic [ref=e36]:
+        - paragraph [ref=e39]: "1"
+        - separator [ref=e40]
+        - generic [ref=e42]:
+          - link "Marina" [ref=e43] [cursor=pointer]:
+            - /url: "#/profile/Marina"
+            - img "Marina" [ref=e44] [cursor=pointer]
+          - generic [ref=e45]:
+            - link "Marina" [ref=e46] [cursor=pointer]:
+              - /url: "#/profile/Marina"
+            - generic [ref=e47]: September 24, 2025
+          - button " Delete Article" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49] [cursor=pointer]: 
+            - text: Delete Article
+          - button " Edit Article" [ref=e50] [cursor=pointer]:
+            - link " Edit Article" [ref=e51] [cursor=pointer]:
+              - /url: "#/editor/title-text-marina-me-and-you"
+              - generic [ref=e52] [cursor=pointer]: 
+              - text: Edit Article
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - textbox "Write a comment..." [ref=e57]
+            - generic [ref=e58]:
+              - img "Marina" [ref=e59]
+              - button "Post Comment" [ref=e60] [cursor=pointer]
+          - generic [ref=e61]: There are no comments yet...
+  - contentinfo [ref=e62]:
+    - generic [ref=e63]:
+      - link "conduit" [ref=e64] [cursor=pointer]:
+        - /url: "#/"
+      - generic [ref=e65]:
+        - text: An interactive learning project from
+        - link "Thinkster" [ref=e66] [cursor=pointer]:
+          - /url: https://thinkster.io
+        - text: . Code & design licensed under MIT.
+      - list [ref=e67]:
+        - listitem [ref=e68]:
+          - link " Source code" [ref=e69] [cursor=pointer]:
+            - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+            - generic [ref=e70] [cursor=pointer]: 
+            - text: Source code
+```
