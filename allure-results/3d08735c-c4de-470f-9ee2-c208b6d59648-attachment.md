@@ -1,0 +1,77 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - generic:
+        - link "conduit" [ref=e5] [cursor=pointer]:
+          - /url: "#/"
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link " Source code" [ref=e8] [cursor=pointer]:
+              - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+              - generic [ref=e9] [cursor=pointer]: 
+              - text: Source code
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link " Home" [ref=e12] [cursor=pointer]:
+              - /url: "#/"
+              - generic [ref=e13] [cursor=pointer]: 
+              - text: Home
+          - listitem [ref=e14]:
+            - link " New Article" [ref=e15] [cursor=pointer]:
+              - /url: "#/editor"
+              - generic [ref=e16] [cursor=pointer]: 
+              - text: New Article
+          - listitem [ref=e17]:
+            - generic [ref=e18] [cursor=pointer]:
+              - img "Marina" [ref=e19] [cursor=pointer]
+              - text: Marina
+            - generic [ref=e20]:
+              - link " Profile" [active] [ref=e21] [cursor=pointer]:
+                - /url: "#/profile/Marina"
+                - generic [ref=e22] [cursor=pointer]: 
+                - text: Profile
+              - link " Settings" [ref=e23] [cursor=pointer]:
+                - /url: "#/settings"
+                - generic [ref=e24] [cursor=pointer]: 
+                - text: Settings
+              - link " Logout" [ref=e26] [cursor=pointer]:
+                - /url: "#/profile/Marina"
+                - generic [ref=e27] [cursor=pointer]: 
+                - text: Logout
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e33]:
+        - img "Marina" [ref=e34]
+        - heading "Marina" [level=4] [ref=e35]
+        - link " Edit Profile Settings" [ref=e36] [cursor=pointer]:
+          - /url: "#/settings"
+          - generic [ref=e37] [cursor=pointer]: 
+          - text: Edit Profile Settings
+      - generic [ref=e40]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - link "My Articles" [ref=e44]:
+              - /url: "#/profile/Marina"
+          - listitem [ref=e45]:
+            - link "Favorited Articles" [ref=e46] [cursor=pointer]:
+              - /url: "#/profile/Marina/favorites"
+        - emphasis [ref=e48]: Loading Marina articles...
+  - contentinfo [ref=e49]:
+    - generic [ref=e50]:
+      - link "conduit" [ref=e51] [cursor=pointer]:
+        - /url: "#/"
+      - generic [ref=e52]:
+        - text: An interactive learning project from
+        - link "Thinkster" [ref=e53] [cursor=pointer]:
+          - /url: https://thinkster.io
+        - text: . Code & design licensed under MIT.
+      - list [ref=e54]:
+        - listitem [ref=e55]:
+          - link " Source code" [ref=e56] [cursor=pointer]:
+            - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+            - generic [ref=e57] [cursor=pointer]: 
+            - text: Source code
+```

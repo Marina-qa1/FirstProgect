@@ -1,3 +1,5 @@
 demoGit/
 node_modules/
 .DS_Store
+test-results/
+playwright-report/5_lesson/

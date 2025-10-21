@@ -1,0 +1,5 @@
+{
+  email: 'Madelynn.Langworth@yahoo.com',
+  name: 'Shannon Ernser',
+  password: '0VoAdzwP3q'
+}

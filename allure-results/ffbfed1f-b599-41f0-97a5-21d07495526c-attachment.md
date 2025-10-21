@@ -1,0 +1,154 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - generic:
+        - link "conduit" [ref=e5] [cursor=pointer]:
+          - /url: "#/"
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link " Source code" [ref=e8] [cursor=pointer]:
+              - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+              - generic [ref=e9] [cursor=pointer]: 
+              - text: Source code
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link " Home" [ref=e12] [cursor=pointer]:
+              - /url: "#/"
+              - generic [ref=e13] [cursor=pointer]: 
+              - text: Home
+          - listitem [ref=e14]:
+            - link " New Article" [ref=e15] [cursor=pointer]:
+              - /url: "#/editor"
+              - generic [ref=e16] [cursor=pointer]: 
+              - text: New Article
+          - listitem [ref=e17]:
+            - generic [ref=e18] [cursor=pointer]:
+              - img "Marina" [ref=e19] [cursor=pointer]
+              - text: Marina
+            - generic [ref=e20]:
+              - link " Profile" [active] [ref=e21] [cursor=pointer]:
+                - /url: "#/profile/Marina"
+                - generic [ref=e22] [cursor=pointer]: 
+                - text: Profile
+              - link " Settings" [ref=e23] [cursor=pointer]:
+                - /url: "#/settings"
+                - generic [ref=e24] [cursor=pointer]: 
+                - text: Settings
+              - link " Logout" [ref=e26] [cursor=pointer]:
+                - /url: "#/profile/Marina"
+                - generic [ref=e27] [cursor=pointer]: 
+                - text: Logout
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e33]:
+        - img "Marina" [ref=e34]
+        - heading "Marina" [level=4] [ref=e35]
+        - link " Edit Profile Settings" [ref=e36] [cursor=pointer]:
+          - /url: "#/settings"
+          - generic [ref=e37] [cursor=pointer]: 
+          - text: Edit Profile Settings
+      - generic [ref=e40]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - link "My Articles" [ref=e44]:
+              - /url: "#/profile/Marina"
+          - listitem [ref=e45]:
+            - link "Favorited Articles" [ref=e46] [cursor=pointer]:
+              - /url: "#/profile/Marina/favorites"
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - link "Marina" [ref=e49] [cursor=pointer]:
+              - /url: "#/profile/Marina"
+              - img "Marina" [ref=e50] [cursor=pointer]
+            - generic [ref=e51]:
+              - link "Marina" [ref=e52] [cursor=pointer]:
+                - /url: "#/profile/Marina"
+              - generic [ref=e53]: October 20, 2025
+            - button " ( 0 )" [ref=e54] [cursor=pointer]:
+              - generic [ref=e55] [cursor=pointer]: 
+              - generic [ref=e56] [cursor=pointer]: ( 0 )
+          - link "harum color eius deinde vergo villa angulus denego trans amet Read more... Comic" [ref=e57] [cursor=pointer]:
+            - /url: "#/article/harum-color-eius-deinde-vergo"
+            - heading "harum color eius deinde vergo" [level=1] [ref=e58] [cursor=pointer]
+            - paragraph [ref=e59] [cursor=pointer]: villa angulus denego trans amet
+            - generic [ref=e60] [cursor=pointer]: Read more...
+            - list [ref=e61] [cursor=pointer]:
+              - listitem [ref=e62] [cursor=pointer]: Comic
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - link "Marina" [ref=e65] [cursor=pointer]:
+              - /url: "#/profile/Marina"
+              - img "Marina" [ref=e66] [cursor=pointer]
+            - generic [ref=e67]:
+              - link "Marina" [ref=e68] [cursor=pointer]:
+                - /url: "#/profile/Marina"
+              - generic [ref=e69]: October 20, 2025
+            - button " ( 0 )" [ref=e70] [cursor=pointer]:
+              - generic [ref=e71] [cursor=pointer]: 
+              - generic [ref=e72] [cursor=pointer]: ( 0 )
+          - link "sono vomica necessitatibus annus cui decimus vorago quae illo utpote Read more... Psychology" [ref=e73] [cursor=pointer]:
+            - /url: "#/article/sono-vomica-necessitatibus-annus-cui"
+            - heading "sono vomica necessitatibus annus cui" [level=1] [ref=e74] [cursor=pointer]
+            - paragraph [ref=e75] [cursor=pointer]: decimus vorago quae illo utpote
+            - generic [ref=e76] [cursor=pointer]: Read more...
+            - list [ref=e77] [cursor=pointer]:
+              - listitem [ref=e78] [cursor=pointer]: Psychology
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - link "Marina" [ref=e81] [cursor=pointer]:
+              - /url: "#/profile/Marina"
+              - img "Marina" [ref=e82] [cursor=pointer]
+            - generic [ref=e83]:
+              - link "Marina" [ref=e84] [cursor=pointer]:
+                - /url: "#/profile/Marina"
+              - generic [ref=e85]: October 20, 2025
+            - button " ( 0 )" [ref=e86] [cursor=pointer]:
+              - generic [ref=e87] [cursor=pointer]: 
+              - generic [ref=e88] [cursor=pointer]: ( 0 )
+          - link "derelinquo aperio id crudelis tres desidero tonsor aptus certus adsuesco Read more... Religion" [ref=e89] [cursor=pointer]:
+            - /url: "#/article/derelinquo-aperio-id-crudelis-tres"
+            - heading "derelinquo aperio id crudelis tres" [level=1] [ref=e90] [cursor=pointer]
+            - paragraph [ref=e91] [cursor=pointer]: desidero tonsor aptus certus adsuesco
+            - generic [ref=e92] [cursor=pointer]: Read more...
+            - list [ref=e93] [cursor=pointer]:
+              - listitem [ref=e94] [cursor=pointer]: Religion
+        - navigation "Pagination" [ref=e95]:
+          - listitem [ref=e96]:
+            - button "Previous page" [disabled]:
+              - generic: 
+          - listitem [ref=e97]:
+            - button "Page 1 is your current page" [ref=e98]: "1"
+          - listitem [ref=e99]:
+            - button "Page 2" [ref=e100] [cursor=pointer]: "2"
+          - listitem [ref=e101]:
+            - button "Page 3" [ref=e102] [cursor=pointer]: "3"
+          - listitem [ref=e103]:
+            - button "..." [ref=e104] [cursor=pointer]
+          - listitem [ref=e105]:
+            - button "Page 9" [ref=e106] [cursor=pointer]: "9"
+          - listitem [ref=e107]:
+            - button "Page 10" [ref=e108] [cursor=pointer]: "10"
+          - listitem [ref=e109]:
+            - button "Page 11" [ref=e110] [cursor=pointer]: "11"
+          - listitem [ref=e111]:
+            - button "Next page" [ref=e112] [cursor=pointer]:
+              - generic [ref=e113] [cursor=pointer]: 
+  - contentinfo [ref=e114]:
+    - generic [ref=e115]:
+      - link "conduit" [ref=e116] [cursor=pointer]:
+        - /url: "#/"
+      - generic [ref=e117]:
+        - text: An interactive learning project from
+        - link "Thinkster" [ref=e118] [cursor=pointer]:
+          - /url: https://thinkster.io
+        - text: . Code & design licensed under MIT.
+      - list [ref=e119]:
+        - listitem [ref=e120]:
+          - link " Source code" [ref=e121] [cursor=pointer]:
+            - /url: https://github.com/TonyMckes/conduit-realworld-example-app
+            - generic [ref=e122] [cursor=pointer]: 
+            - text: Source code
+```
