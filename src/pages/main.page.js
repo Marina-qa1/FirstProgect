@@ -11,6 +11,7 @@ this.loginLink = page.getByRole('link', { name: 'Login'});
 this.firstTag = page.getByRole('link', { name: 'реклама'});           
 this.beLike = page.getByRole('button', { name: '( 0 )' });
 this.nextPage = page.getByRole('button', { name: 'Page 2' });
+this.articlePreview = page.locator('.article-preview');
 
 
 
@@ -25,8 +26,17 @@ this.nextPage = page.getByRole('button', { name: 'Page 2' });
     async gotoTag(){
             await this.firstTag.click();
         }
-    async beLike(){
-        await this.beLike.click();
+            async getFirstArticle() {
+        return this.articlePreview.first();
+    }
+    // async beLike(){
+    //     await this.beLike.click();
+    // }
+        async beLike() {
+        const article = await this.getFirstArticle();
+        const likeButton = article.locator('button.btn-outline-primary');
+        await likeButton.click();
+        return likeButton.locator('.counter');
     }
     async nextPage(){
         await this.nextPage.click();
