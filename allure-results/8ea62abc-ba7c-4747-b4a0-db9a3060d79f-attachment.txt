@@ -1,5 +1,0 @@
-{
-  email: 'Louisa.Auer95@gmail.com',
-  name: 'Lawrence Wisozk',
-  password: 'rq5tPl7IZ3'
-}

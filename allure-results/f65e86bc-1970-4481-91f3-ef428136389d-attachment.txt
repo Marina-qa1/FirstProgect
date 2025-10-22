@@ -1,5 +1,0 @@
-{
-  email: 'Jamar_Gleichner14@hotmail.com',
-  name: 'Alberta Balistreri',
-  password: 'RBcS2C9Xl8'
-}
