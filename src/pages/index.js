@@ -5,3 +5,4 @@ export * from './globalfeed.page';
 export * from './article.page';
 export * from './signIn.page';
 export * from './yourfeed.page';
+export * from './editArticle.page';
