@@ -125,21 +125,12 @@ test.describe('Авторизация', () => {
 
 });
 
-// test('Пользователь может открыть первый тег Реклама', async ({
-//     page,}) => {
-       
-//       const firstTag = page.locator('.tag-pill', { hasText: 'реклама' }).first();
-  
-//  await expect(firstTag).toContainText('реклама');
-		
-// 	});
 test('Пользователь может открыть первый тег Реклама', async ({ page }) => {
     const articlePage = new ArticlePage(page);
     
+    await articlePage.clickFirstTag();
     await expect(articlePage.firstTag).toContainText('реклама');
     
-    // Или используйте метод из page object
-    // await tagsPage.verifyFirstTagText('реклама');
 });
 
     });

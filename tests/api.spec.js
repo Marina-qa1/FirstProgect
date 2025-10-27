@@ -19,10 +19,12 @@ test.describe("Challenge", () => {
     const body = await r.json();
     expect(body.challenges.length).toBe(59);
   });
+
+  
 });
 
 test.describe("Challenge with service pattern", () => {
-  test.skip("получить токен", async ({ request }, testinfo) => {
+  test("получить токен", async ({ request }, testinfo) => {
     const challenger = new ChallengerService(request);
     let r = await challenger.post(testinfo);
     const headers = r.headers();
